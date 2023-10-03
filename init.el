@@ -19,7 +19,6 @@
 
 ;; Keybindings
 (global-set-key (kbd "M-o") 'other-window)
-(global-set-key (kbd "C-c SPC") 'set-mark-command)
 
 ;; Force bash as the default shell for ansi-term
 (defvar my-term-shell "/bin/bash")
@@ -121,7 +120,4 @@
          (cider-repl-mode . company-mode) ; Autocompletion in REPL
          (cider-mode . company-mode))     ; Autocompletion in Clojure buffers
   :config
-  (setq cider-repl-pop-to-buffer-on-connect 'display-only)
-  :bind
-  (("C-c C-z" . cider-switch-to-repl-buffer))) ; Keybinding to quickly switch to REPL buffer
-
+  (setq cider-repl-pop-to-buffer-on-connect 'display-only))
