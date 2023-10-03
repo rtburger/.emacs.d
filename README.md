@@ -45,6 +45,6 @@ Special thanks to the creators and maintainers of the utilized packages, and to 
 
 - [GNU Emacs](https://www.gnu.org/software/emacs/)
 - [System Crafters on YouTube](https://www.youtube.com/c/SystemCrafters)
-- [Uncle Dave on YouTube](https://www.youtube.com/c/uncledave)
+- [Uncle Dave on YouTube](https://www.youtube.com/@uncledave2063)
 
 Happy Coding!
